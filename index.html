@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raquel Ribeiro</title>
+
+  <!--link favicon-->
+  <link rel="shortcut icon" href="Favicon/favicon.ico" type="image/x-icon">
+
+  <!--link ficheiro CSS-->
+  <link rel="stylesheet" href="CSS/style.css">
+
+  <!--link do boostrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!--link para o javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <a class="topo" name="topo"></a>
+    <h1><b>Montanhismo</b></h1>
+
+  </header>
+
+  <!--caroussel de imagens-->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagens/mountains-snow-header-7050.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagens/snow-mountains-blue-sky-and-lake-panoramic-web-header-.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagens/snow-mountains-header-7052.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="http://portalaventuras.pt/montanhismo/" target="_blank">Saber mais</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="tabela.html">Informações</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="formulario.html">Formulário</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Visitas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#estrela">Serra da Estrela</a></li>
+              <li><a class="dropdown-item" href="#geres">Serra do Gerês</a></li>
+              <li><a class="dropdown-item" href="#aire">Serra de Aire e Candeeiros</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="apreciacao.html">Apreciação</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Procurar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!--Primeiro Grupo de Cards-->
+
+  <div class="card-group">
+    <div class="card text-white bg-success border-secondary mb-3">
+      <h5 class="card-title1">Sobre mim</h5>
+      <img src="imagens/montanhismo.jpg" class="card-montanhismo" alt="montanhismo">
+      <div class="card1-body">
+        <p class="card-text1">Adoro o contacto com a natureza, adoro caminhar e explorar! O montanhismo permite-me
+          contactar com a natureza de uma forma única. Esta atividade/desporto é muito aliciante permitindo-me explorar
+          a natureza livremente e desfrutar inteiramente dela de uma forma divertida e ao mesmo tempo relaxante. </p>
+        <br>
+        <h6 class="card-link">Vantagens do montanhismo:</h6>
+
+        <a href="https://www.nosalpes.com/beneficios-do-montanhismo-para-a-saude/" target="_blank" style="padding: 15%"
+          class="link">Benefícios do montanhismo para a saúde</a>
+
+
+      </div>
+    </div>
+
+
+    <div class="card text-white bg-warning border-secondary mb-3">
+      <a name="estrela"></a>
+      <h5 class="card-title2">Serra da Estrela</h5>
+      <h6 class="card-data">Julho 2019</h6>
+      <img src="imagens/serra da estrela.jpg" class="card-serradaestrela" alt="serradaestrela">
+      <div class="card2-body">
+
+        <p class="card-text2">A Serra da Estrela é a serra mais alta de Portugal Continental. Esta serra está situada na
+          região da Beira Interior sendo o berço de quatro rios portugueses: Mondego, Zêzere, Alva e Alvôco. Além da
+          neve, da fauna e flora, esta serra também nos atrai pelas suas proporções colossais, bem como pela riqueza
+          humana, cultural, histórica e gastronómica da região. A prática de montanhismo é frequente nesta serra, sendo
+          possível desfrutar de uma paisagem lindíssima e contatar com uma fauna e flora extraordinárias. Para além
+          disso, para quem gostar de desportos de inverno, é nesta serra que está situada a única Estância de Esqui de
+          Portugal. </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Segundo Grupo de Cards-->
+
+  <div class="card-group">
+    <div class="card text-white bg-warning border-secondary mb-3">
+      <a name="geres"></a>
+      <h5 class="card-title3">Serra do Gerês</h5>
+      <h6 class="card-data">Agosto 2022</h6>
+      <img src="imagens/poço-azul-geres.jpg" class="card-geres" alt="geres">
+
+      <div class3="card3-body">
+
+        <p class="card-text3">A Serra do Gerês é a segunda serra mais alta de Portugal Continental. Situada no norte de
+          Portugal, ocupa grande parte do concelho de Terras de Bouro e prolonga-se para Espanha. Do seu potencial
+          geológico e geomorfológico destaca-se a falha do Gerês, responsável pela deslocação dos vales dos rios Cávado
+          e Homem e pelas nascentes termais da Vila do Gerês e do rio Caldo. Com a sua fauna e flora extremamente ricas,
+          é uma excelente serra para a prática de montanhismo contando com diversos trilhos de diferentes graus de
+          dificuldade. </p>
+      </div>
+    </div>
+
+
+    <div class="card text-white bg-success border-secondary mb-3">
+      <a id="aire"></a>
+      <h5 class="card-title4 ">Serra de Aire e Candeeiros</h5>
+      <h6 class="card-data">Junho 2023</h6>
+      <img src="imagens/serra daire.jfif" class="card-serradeaire" alt="serradeaire">
+      <div class="card2-body">
+
+        <p class="card-text4">A Serra de Aire e Candeeiros localiza-se no Ribatejo, de onde sou natural. Geologicamente
+          este é um local de eleição, encontrando-se aqui diversas formações geológicas típicas de uma zona calcária,
+          entre eles, grutas, algares e pojes. Para além disso, esta serra destaca-se pelos seus fósseis, com destaque
+          para a descoberta das pegadas de dinossauros. Para quem gosta de montanhismo pode contar com paisagens
+          lindíssimas, com campos repletos de oliveiras e um perfume a alecrim e rosmanhinho que se espalha pelo ar puro
+          da serra.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+
+    <a href="https://www.facebook.com/FCMPortugal/?locale=pt_PT" target="_blank"><img src="Imagens/facebook.png"
+        alt="img" class="image"></a>
+    <a href="https://www.youtube.com/watch?v=_H6dp5GXHgM" target="_blank"><img src="Imagens/youtube.png" alt="img"
+        class="image"></a>
+
+    <hr>
+    <a class="topo" href="#topo">Voltar ao topo da página</a>
+    <p>&copy 2023 Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
