@@ -1,0 +1,325 @@
+body {
+
+    background: linear-gradient(rgb(6, 85, 159), rgb(65, 231, 203));
+}
+
+
+header {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(247, 251, 255);
+}
+
+
+
+.card-title1 {
+    color: rgb(2, 2, 2);
+    text-align: center;
+    margin-top: 5%;
+}
+
+.card-text1 {
+    margin-right: 40px;
+    margin-left: 60px;
+    text-align: center;
+    color: rgb(8, 9, 9);
+
+}
+
+
+
+.card-link {
+    color: rgb(97, 8, 9);
+    margin-left: 15%;
+}
+
+.link {
+
+    color: rgb(242, 187, 143);
+    grid-row: auto;
+
+
+}
+
+.card-montanhismo {
+    border-radius: 25px 25px;
+    width: 500px;
+    height: 300px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 15%;
+    background-color: blue;
+
+
+
+
+}
+
+
+.card-serradaestrela {
+
+    border-radius: 25px 25px;
+    width: 500px;
+    height: 250px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 15%;
+
+}
+
+.card-title2 {
+    color: rgb(2, 2, 2);
+    text-align: center;
+    margin-top: 5%;
+}
+
+.card-data {
+    color: rgb(2, 2, 2);
+    text-align: center;
+
+}
+
+.card-text2 {
+    margin-left: 60px;
+    text-align: center;
+    color: rgb(8, 9, 9);
+    margin-right: 40px;
+}
+
+
+
+.card-geres {
+    border-radius: 25px 25px;
+    width: 500px;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 15%;
+
+}
+
+.card-title3 {
+    color: rgb(2, 2, 2);
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
+.card-text3 {
+    margin-left: 60px;
+    text-align: center;
+    color: rgb(8, 9, 9);
+    margin-right: 40px;
+}
+
+
+
+.card-serradeaire {
+    border-radius: 25px 25px;
+    width: 500px;
+    height: 300px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+.card-title4 {
+    color: rgb(2, 2, 2);
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
+.card-text4 {
+    margin-left: 60px;
+    text-align: center;
+    color: rgb(8, 9, 9);
+    margin-right: 40px;
+}
+
+
+
+
+
+.card2 {
+    width: 400px;
+    text-align: center;
+
+}
+
+.card-serradaestrela {
+    border-radius: 25px 25px;
+    width: 500px;
+    height: 300px;
+    text-align: auto;
+    margin-bottom: 5%;
+
+}
+
+.card3 {
+    width: 500px;
+    text-align: center;
+    padding: 150px;
+}
+
+.card-geres {
+    border-radius: 25px 25px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+p {
+    text-align: justify;
+}
+
+
+
+footer p {
+
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+
+}
+
+footer {
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    font-size: large;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(2, 2, 2);
+}
+
+.formulario {
+
+    border: 3px solid rgb(235, 177, 126);
+    max-width: fit-content;
+    padding: 25px;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#form {
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(130, 70, 14);
+
+}
+
+.imagem_formulario {
+    width: 1000px;
+    height: 400px;
+    border-radius: 25px 25px;
+}
+
+
+#material {
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.imagem_tabela {
+    width: 900px;
+    height: 400px;
+    border-radius: 25px 25px;
+}
+
+#listageral {
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#lista {
+    background-color: rgb(226, 174, 43);
+    text-align: center;
+}
+
+#lista1 {
+    background-color: rgb(130, 189, 2);
+    text-align: center;
+}
+
+#lista2 {
+    background-color: rgb(226, 174, 43);
+    text-align: center;
+}
+
+#lista3 {
+    background-color: rgb(130, 189, 2);
+    text-align: center;
+}
+
+#lista4 {
+    background-color: rgb(226, 174, 43);
+    text-align: center;
+}
+
+#lista5 {
+    background-color: rgb(130, 189, 2);
+    text-align: center;
+}
+
+#tabela1 {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(255, 157, 0, 0.781);
+}
+
+#tabela,
+tr,
+td,
+th {
+    border: 2px solid black;
+    padding: 5px 15px 15px 2px;
+
+}
+
+tr:hover {
+    background-color: rgb(194, 94, 57);
+}
+
+
+#tabl table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 65%;
+
+}
+
+#inspiracao {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(225, 148, 14, 0.781);
+
+}
+
+.imagem_apreciacao {
+    width: 700px;
+    height: 400px;
+    border-radius: 25px 25px;
+}
